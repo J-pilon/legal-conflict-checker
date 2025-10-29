@@ -10,5 +10,15 @@ module ConflictDetectors
     def detect
       raise NotImplementedError, "You must implement the detect method"
     end
+
+    class << self
+      def descendants
+        [
+          ConcurrentConflictDetector,
+          LawyerClientConflictDetector,
+          SuccessiveConflictDetector
+        ]
+      end
+    end
   end
 end

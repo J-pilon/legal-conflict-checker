@@ -12,9 +12,9 @@ class ConflictCollector
   end
 
   def search
-    detectors.map do |dector|
+    detectors.map do |detector|
       former_legal_matters.filter_map do |former_legal_matter|
-        dector.detect(former_legal_matter, prospective_matter)
+        detector.detect(former_legal_matter, prospective_matter)
       end
     end
   end
