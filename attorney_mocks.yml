@@ -1,0 +1,27 @@
+attorneys:
+  - name: "Jennifer Martinez"
+    business_interests: ["Martinez Restaurant Group", "Downtown Law Partners", "Commercial Litigation Associates"]
+
+  - name: "Robert Chen"
+    business_interests: ["Chen Estate Planning Group", "Family Trust Advisors", "Estate Solutions Inc"]
+
+  - name: "Sarah Williams"
+    business_interests: ["Williams Consumer Products", "Startup Legal Services", "Securities Compliance Group"]
+
+  - name: "Maria Rodriguez"
+    business_interests: ["Rodriguez Construction LLC", "Workplace Solutions LLC", "Labor Relations Associates"]
+
+  - name: "David Kim"
+    business_interests: ["Kim Real Estate Law", "Construction Legal Services", "Tax Advisory Partners"]
+
+  - name: "Patricia Brown"
+    business_interests: ["Brown Healthcare Law", "Environmental Compliance Group", "Family Law Associates"]
+
+  - name: "Thomas Anderson"
+    business_interests: ["Anderson Tech Innovations", "Tech Legal Solutions", "Patent Portfolio Management"]
+
+  - name: "Michael Thompson"
+    business_interests: ["Thompson Acquisition Corp", "Thompson Tech Solutions", "Compliance Defense Associates"]
+
+  - name: "Elena Vasquez"
+    business_interests: ["Vasquez Immigration Law", "International Legal Services", "Global Trade Advisors"]
