@@ -18,7 +18,7 @@ RSpec.describe ConflictDetectors::ConcurrentConflictDetector, type: :service do
       it 'returns a conflict hash' do
         former_with_matching_party = FactoryBot.build(:legal_matter,
           matter_number: "2024-001",
-          related_parties: ["Test Client (Advisor)"]
+          related_parties: [ "Test Client (Advisor)" ]
         )
         prospective = FactoryBot.build(:legal_matter,
           matter_number: "2024-002",
@@ -35,7 +35,7 @@ RSpec.describe ConflictDetectors::ConcurrentConflictDetector, type: :service do
       it 'strips role descriptions before matching' do
         former_matter = FactoryBot.build(:legal_matter,
           matter_number: "2024-001",
-          related_parties: ["Test Client (Attorney)", "Another Party (CEO)"]
+          related_parties: [ "Test Client (Attorney)", "Another Party (CEO)" ]
         )
         prospective = FactoryBot.build(:legal_matter,
           matter_number: "2024-002",
@@ -52,7 +52,7 @@ RSpec.describe ConflictDetectors::ConcurrentConflictDetector, type: :service do
       it 'returns nil' do
         former_no_match = FactoryBot.build(:legal_matter,
           matter_number: "2024-001",
-          related_parties: ["Different Client (Advisor)"]
+          related_parties: [ "Different Client (Advisor)" ]
         )
         prospective = FactoryBot.build(:legal_matter,
           matter_number: "2024-002",
@@ -86,7 +86,7 @@ RSpec.describe ConflictDetectors::ConcurrentConflictDetector, type: :service do
       it 'performs case insensitive matching' do
         former_matter = FactoryBot.build(:legal_matter,
           matter_number: "2024-001",
-          related_parties: ["test client (Advisor)"]
+          related_parties: [ "test client (Advisor)" ]
         )
         prospective = FactoryBot.build(:legal_matter,
           matter_number: "2024-002",

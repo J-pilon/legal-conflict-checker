@@ -1,0 +1,153 @@
+<div class="dashboard-container">
+  <h1>Legal Matters Dashboard</h1>
+
+  <div class="table-container">
+    <table class="legal-matters-table">
+      <thead>
+        <tr>
+          <th>Matter Number</th>
+          <th>Title</th>
+          <th>Client Name</th>
+          <th>Client Type</th>
+          <th>Practice Area</th>
+          <th>Matter Type</th>
+          <th>Status</th>
+          <th>Opened Date</th>
+          <th>Closed Date</th>
+          <th>Assigned Attorney</th>
+          <th>Adverse Parties</th>
+          <th>Related Parties</th>
+          <th>Description</th>
+          <th>Conflicts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @legal_matters.each do |matter| %>
+          <% conflicts_json = format_conflicts_for_json(matter).to_json.html_safe %>
+          <tr>
+            <td><%= matter.matter_number %></td>
+            <td><%= matter.title %></td>
+            <td><%= matter.client_name %></td>
+            <td><%= matter.client_type %></td>
+            <td><%= matter.practice_area %></td>
+            <td><%= matter.matter_type %></td>
+            <td><%= matter.status %></td>
+            <td><%= format_date(matter.opened_date) %></td>
+            <td><%= format_date(matter.closed_date) %></td>
+            <td><%= matter.assigned_attorney&.name || matter.instance_variable_get(:@assigned_attorney) %></td>
+            <td><%= format_array_attribute(matter.adverse_parties) %></td>
+            <td><%= format_array_attribute(matter.related_parties) %></td>
+            <td class="description-cell"><%= matter.description %></td>
+            <td>
+              <% if matter.conflicts_count > 0 %>
+                <button 
+                  class="<%= conflict_badge_class(matter.conflicts_count) %>"
+                  data-conflicts='<%= conflicts_json %>'
+                  data-matter-number="<%= matter.matter_number %>"
+                  data-matter-title="<%= matter.title %>"
+                  onclick="openConflictModal(this)">
+                  <%= matter.conflicts_count %> Conflict<%= 's' if matter.conflicts_count != 1 %>
+                </button>
+              <% else %>
+                <span class="no-conflicts">—</span>
+              <% end %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="conflictModal" class="modal">
+  <div class="modal-backdrop" onclick="closeConflictModal()"></div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="modalMatterTitle"></h2>
+      <button class="modal-close" onclick="closeConflictModal()" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <!-- Conflicts will be dynamically inserted here -->
+    </div>
+  </div>
+</div>
+
+<script>
+  function openConflictModal(button) {
+    const conflictsData = JSON.parse(button.getAttribute('data-conflicts'));
+    const matterNumber = button.getAttribute('data-matter-number');
+    const matterTitle = button.getAttribute('data-matter-title');
+    
+    // Set modal title
+    document.getElementById('modalMatterTitle').textContent = `${matterNumber}: ${matterTitle}`;
+    
+    // Build conflict sections grouped by type
+    const modalBody = document.getElementById('modalBody');
+    modalBody.innerHTML = '';
+    
+    if (Object.keys(conflictsData).length === 0) {
+      modalBody.innerHTML = '<p>No conflicts detected.</p>';
+    } else {
+      // Conflict type labels
+      const typeLabels = {
+        'concurrent_conflict': 'Concurrent Conflicts',
+        'successive_conflict': 'Successive Conflicts',
+        'lawyer_client_conflict': 'Lawyer-Client Conflicts'
+      };
+      
+      // Process each conflict type
+      Object.keys(conflictsData).forEach(type => {
+        const conflicts = conflictsData[type];
+        if (conflicts && conflicts.length > 0) {
+          const section = document.createElement('div');
+          section.className = 'conflict-section';
+          
+          const heading = document.createElement('h3');
+          heading.textContent = typeLabels[type] || type.replace('_', ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+          section.appendChild(heading);
+          
+          const list = document.createElement('ul');
+          conflicts.forEach(conflict => {
+            const listItem = document.createElement('li');
+            listItem.className = 'conflict-item';
+            
+            const formerMatter = conflict.former_matter;
+            if (formerMatter) {
+              listItem.innerHTML = `
+                <div class="conflict-matter">
+                  <strong>${formerMatter.matter_number}:</strong> 
+                  ${formerMatter.title}
+                </div>
+                <div class="conflict-reason">${conflict.reason}</div>
+              `;
+            } else {
+              listItem.innerHTML = `<div class="conflict-reason">${conflict.reason}</div>`;
+            }
+            
+            list.appendChild(listItem);
+          });
+          
+          section.appendChild(list);
+          modalBody.appendChild(section);
+        }
+      });
+    }
+    
+    // Show modal
+    document.getElementById('conflictModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeConflictModal() {
+    document.getElementById('conflictModal').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // Close modal on ESC key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      closeConflictModal();
+    }
+  });
+</script>

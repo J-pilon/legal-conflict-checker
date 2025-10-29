@@ -23,7 +23,7 @@ RSpec.describe ConflictDetectors::LawyerClientConflictDetector, type: :service d
       it 'returns a conflict hash' do
         attorney_with_interest = build(:attorney,
           name: "Test Attorney",
-          business_interests: ["Former Client Corp"]
+          business_interests: [ "Former Client Corp" ]
         )
         former_matter = build(:legal_matter,
           matter_number: "2024-001",
@@ -46,7 +46,7 @@ RSpec.describe ConflictDetectors::LawyerClientConflictDetector, type: :service d
       it 'matches any business interest in the array' do
         attorney_with_multiple = build(:attorney,
           name: "Test Attorney",
-          business_interests: ["Company A", "Former Client Corp", "Company B"]
+          business_interests: [ "Company A", "Former Client Corp", "Company B" ]
         )
         former_matter = build(:legal_matter,
           matter_number: "2024-001",
@@ -70,7 +70,7 @@ RSpec.describe ConflictDetectors::LawyerClientConflictDetector, type: :service d
       it 'returns nil' do
         attorney_no_match = build(:attorney,
           name: "Test Attorney",
-          business_interests: ["Company A", "Company B"]
+          business_interests: [ "Company A", "Company B" ]
         )
         former_matter = build(:legal_matter,
           matter_number: "2024-001",
@@ -135,7 +135,7 @@ RSpec.describe ConflictDetectors::LawyerClientConflictDetector, type: :service d
       it 'performs case insensitive matching' do
         attorney_with_interest = build(:attorney,
           name: "Test Attorney",
-          business_interests: ["Client Corp"]
+          business_interests: [ "Client Corp" ]
         )
         former_matter = build(:legal_matter,
           matter_number: "2024-001",
