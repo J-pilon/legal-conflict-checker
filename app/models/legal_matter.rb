@@ -1,7 +1,8 @@
 class LegalMatter
   attr_reader :matter_number, :title, :client_name, :client_type, :practice_area,
               :matter_type, :status, :opened_date, :closed_date, :adverse_parties,
-              :related_parties, :description
+              :related_parties, :description, :conflict_check_completed_date
+  attr_accessor :conflicts
 
   def initialize(attrs)
     @matter_number = attrs["matter_number"]
@@ -17,10 +18,26 @@ class LegalMatter
     @related_parties = attrs["related_parties"]
     @assigned_attorney = attrs["assigned_attorney"]
     @description = attrs["description"]
+    @conflict_check_completed_date = attrs["conflict_check_completed_date"]
+    @conflicts = nil
   end
 
   def assigned_attorney
     Attorney.find_by_name(@assigned_attorney)
+  end
+
+  def has_completed_conflict_check?
+    conflict_check_completed_date.present?
+  end
+
+  def conflicts_by_type
+    return {} if @conflicts.nil? || @conflicts.empty?
+
+    @conflicts.group_by { |conflict| conflict[:type] }
+  end
+
+  def conflicts_count
+    @conflicts.nil? ? 0 : @conflicts.length
   end
 
   class << self
