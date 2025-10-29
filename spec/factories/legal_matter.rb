@@ -5,7 +5,7 @@ FactoryBot.define do
     matter_number { "2024-#{rand(1000..9999)}" }
     title { "#{Faker::Company.name} Legal Matter" }
     client_name { Faker::Company.name }
-    client_type { ["Individual", "Corporation", "LLC", "Trust"].sample }
+    client_type { [ "Individual", "Corporation", "LLC", "Trust" ].sample }
     practice_area { "Corporate Law" }
     matter_type { "Contract Dispute" }
     status { "Active" }
@@ -27,11 +27,11 @@ FactoryBot.define do
     end
 
     trait :with_related_party do
-      related_parties { ["Related Party (Role)"] }
+      related_parties { [ "Related Party (Role)" ] }
     end
 
     trait :with_adverse_party do
-      adverse_parties { ["Adverse Party"] }
+      adverse_parties { [ "Adverse Party" ] }
     end
 
     trait :with_specific_client do

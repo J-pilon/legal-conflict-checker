@@ -30,8 +30,8 @@ RSpec.describe LegalMatter, type: :model do
             "status" => "Closed",
             "opened_date" => "2024-01-15",
             "closed_date" => "2024-03-01",
-            "adverse_parties" => ["Adverse Party"],
-            "related_parties" => ["Related Party"],
+            "adverse_parties" => [ "Adverse Party" ],
+            "related_parties" => [ "Related Party" ],
             "assigned_attorney" => "Attorney B",
             "description" => "Another description"
           }
@@ -78,8 +78,8 @@ RSpec.describe LegalMatter, type: :model do
         "status" => "Active",
         "opened_date" => "2024-01-01",
         "closed_date" => nil,
-        "adverse_parties" => ["Adverse Party A"],
-        "related_parties" => ["Related Party B"],
+        "adverse_parties" => [ "Adverse Party A" ],
+        "related_parties" => [ "Related Party B" ],
         "assigned_attorney" => "Test Attorney",
         "description" => "Test description"
       }
@@ -97,8 +97,8 @@ RSpec.describe LegalMatter, type: :model do
       expect(matter.status).to eq("Active")
       expect(matter.opened_date).to eq("2024-01-01")
       expect(matter.closed_date).to be_nil
-      expect(matter.adverse_parties).to eq(["Adverse Party A"])
-      expect(matter.related_parties).to eq(["Related Party B"])
+      expect(matter.adverse_parties).to eq([ "Adverse Party A" ])
+      expect(matter.related_parties).to eq([ "Related Party B" ])
       expect(matter.description).to eq("Test description")
     end
   end
