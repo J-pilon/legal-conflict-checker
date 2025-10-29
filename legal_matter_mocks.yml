@@ -1,0 +1,1400 @@
+legal_matters:
+  - matter_number: "2024-001"
+    title: "Smith vs. ABC Corporation Contract Dispute"
+    client_name: "John Smith"
+    client_type: "Individual"
+    practice_area: "Commercial Litigation"
+    matter_type: "Contract Dispute"
+    status: "Active"
+    opened_date: "2024-01-15"
+    closed_date: null
+    adverse_parties: [ABC Corporation, Robert Johnson (CEO)]
+    related_parties: [Sarah Williams (Contract Manager), Mike Davis (Witness)]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Breach of contract claim regarding software licensing agreement"
+
+  - matter_number: "2024-002"
+    title: "Johnson Family Estate Planning"
+    client_name: "Margaret Johnson"
+    client_type: "Individual"
+    practice_area: "Estate Planning"
+    matter_type: "Will and Trust"
+    status: "Active"
+    opened_date: "2024-01-20"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [David Johnson (Son), Lisa Johnson (Daughter), First National Bank (Trustee)]
+    assigned_attorney: "Robert Chen"
+    description: "Comprehensive estate planning including will, trust, and power of attorney"
+
+  - matter_number: "2024-003"
+    title: "TechStart Inc. Series A Funding"
+    client_name: "TechStart Inc."
+    client_type: "Corporation"
+    practice_area: "Corporate Law"
+    matter_type: "Securities Offering"
+    status: "Active"
+    opened_date: "2024-02-01"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Venture Capital Partners LLC, Silicon Valley Bank, Alex Thompson (CEO)]
+    assigned_attorney: "Sarah Williams"
+    description: "Representing startup in Series A funding round and securities compliance"
+
+  - matter_number: "2024-004"
+    title: "Davis Employment Discrimination Case"
+    client_name: "Michael Davis"
+    client_type: "Individual"
+    practice_area: "Employment Law"
+    matter_type: "Discrimination"
+    status: "Active"
+    opened_date: "2024-02-10"
+    closed_date: null
+    adverse_parties: [GlobalTech Solutions Inc., Jennifer Adams (HR Director)]
+    related_parties: [Tom Wilson (Co-worker), HR Department Staff]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Age discrimination claim against former employer"
+
+  - matter_number: "2024-005"
+    title: "Greenfield Real Estate Purchase"
+    client_name: "Greenfield Properties LLC"
+    client_type: "LLC"
+    practice_area: "Real Estate"
+    matter_type: "Commercial Purchase"
+    status: "Closed"
+    opened_date: "2024-01-05"
+    closed_date: "2024-03-15"
+    adverse_parties: null
+    related_parties: [Metro Development Corp (Seller), First Commercial Bank (Lender)]
+    assigned_attorney: "David Kim"
+    description: "Commercial property acquisition in downtown business district"
+
+  - matter_number: "2024-006"
+    title: "Williams Divorce Proceedings"
+    client_name: "Lisa Williams"
+    client_type: "Individual"
+    practice_area: "Family Law"
+    matter_type: "Divorce"
+    status: "Active"
+    opened_date: "2024-02-15"
+    closed_date: null
+    adverse_parties: [James Williams (Spouse)]
+    related_parties: [Emma Williams (Child), Family Court Mediator]
+    assigned_attorney: "Patricia Brown"
+    description: "Contested divorce with child custody and asset division"
+
+  - matter_number: "2024-007"
+    title: "InnovateCorp Patent Application"
+    client_name: "InnovateCorp Technologies"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Patent Prosecution"
+    status: "Active"
+    opened_date: "2024-01-30"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [USPTO, Dr. Sarah Chen (Inventor), Patent Examiner]
+    assigned_attorney: "Thomas Anderson"
+    description: "Patent application for innovative software algorithm"
+
+  - matter_number: "2024-008"
+    title: "Brown Personal Injury Claim"
+    client_name: "Robert Brown"
+    client_type: "Individual"
+    practice_area: "Personal Injury"
+    matter_type: "Motor Vehicle Accident"
+    status: "Active"
+    opened_date: "2024-03-01"
+    closed_date: null
+    adverse_parties: [Metro Transit Authority, John Smith (Driver)]
+    related_parties: [Dr. Amanda Lee (Treating Physician), Witnesses]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Motor vehicle accident claim with significant injuries"
+
+  - matter_number: "2024-009"
+    title: "Wilson Business Formation"
+    client_name: "Tom Wilson"
+    client_type: "Individual"
+    practice_area: "Corporate Law"
+    matter_type: "Business Formation"
+    status: "Closed"
+    opened_date: "2024-01-10"
+    closed_date: "2024-02-28"
+    adverse_parties: null
+    related_parties: [State Corporation Commission, Business Partners]
+    assigned_attorney: "Sarah Williams"
+    description: "Formation of consulting LLC and initial business agreements"
+
+  - matter_number: "2024-010"
+    title: "Adams Criminal Defense"
+    client_name: "Jennifer Adams"
+    client_type: "Individual"
+    practice_area: "Criminal Defense"
+    matter_type: "White Collar Crime"
+    status: "Active"
+    opened_date: "2024-02-20"
+    closed_date: null
+    adverse_parties: [United States Government, FBI]
+    related_parties: [Federal Prosecutor, Court Appointed Investigator]
+    assigned_attorney: "Michael Thompson"
+    description: "Federal fraud charges defense"
+
+  - matter_number: "2024-011"
+    title: "Lee Immigration Petition"
+    client_name: "Dr. Amanda Lee"
+    client_type: "Individual"
+    practice_area: "Immigration Law"
+    matter_type: "Employment Visa"
+    status: "Active"
+    opened_date: "2024-03-05"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [USCIS, Medical Center (Sponsor), Immigration Officer]
+    assigned_attorney: "Elena Vasquez"
+    description: "H-1B visa petition for medical professional"
+
+  - matter_number: "2024-012"
+    title: "Thompson Trademark Infringement"
+    client_name: "Thompson Manufacturing Co."
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Trademark Litigation"
+    status: "Active"
+    opened_date: "2024-02-25"
+    closed_date: null
+    adverse_parties: [Competitor Corp, Mark Johnson (President)]
+    related_parties: [USPTO, Trademark Examiner, Industry Experts]
+    assigned_attorney: "Thomas Anderson"
+    description: "Trademark infringement lawsuit and brand protection"
+
+  - matter_number: "2024-013"
+    title: "Garcia Workers' Compensation"
+    client_name: "Carlos Garcia"
+    client_type: "Individual"
+    practice_area: "Workers' Compensation"
+    matter_type: "Workplace Injury"
+    status: "Active"
+    opened_date: "2024-03-10"
+    closed_date: null
+    adverse_parties: [Industrial Solutions Inc., Workers' Comp Insurance]
+    related_parties: [Dr. Sarah Kim (Treating Physician), Safety Inspector]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Workplace injury claim and workers' compensation benefits"
+
+  - matter_number: "2024-014"
+    title: "Martinez Commercial Lease"
+    client_name: "Martinez Restaurant Group"
+    client_type: "Corporation"
+    practice_area: "Real Estate"
+    matter_type: "Commercial Lease"
+    status: "Active"
+    opened_date: "2024-01-25"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Downtown Properties LLC (Landlord), Commercial Bank]
+    assigned_attorney: "David Kim"
+    description: "Commercial lease negotiation for restaurant expansion"
+
+  - matter_number: "2024-015"
+    title: "Chen Medical Malpractice"
+    client_name: "Dr. Sarah Chen"
+    client_type: "Individual"
+    practice_area: "Medical Malpractice"
+    matter_type: "Surgical Error"
+    status: "Active"
+    opened_date: "2024-02-28"
+    closed_date: null
+    adverse_parties: [City General Hospital, Dr. Robert Miller (Surgeon)]
+    related_parties: [Medical Review Board, Expert Witnesses]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Medical malpractice claim for surgical complications"
+
+  - matter_number: "2024-016"
+    title: "Rodriguez Bankruptcy Filing"
+    client_name: "Rodriguez Construction LLC"
+    client_type: "LLC"
+    practice_area: "Bankruptcy Law"
+    matter_type: "Chapter 11"
+    status: "Active"
+    opened_date: "2024-03-12"
+    closed_date: null
+    adverse_parties: [Creditors Committee, Bankruptcy Trustee]
+    related_parties: [Commercial Lenders, Suppliers, Employees]
+    assigned_attorney: "Patricia Brown"
+    description: "Chapter 11 bankruptcy reorganization for construction company"
+
+  - matter_number: "2024-017"
+    title: "Kim Employment Contract"
+    client_name: "Dr. Sarah Kim"
+    client_type: "Individual"
+    practice_area: "Employment Law"
+    matter_type: "Contract Negotiation"
+    status: "Closed"
+    opened_date: "2024-01-18"
+    closed_date: "2024-02-20"
+    adverse_parties: null
+    related_parties: [Regional Medical Center (Employer), HR Department]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Employment contract negotiation for senior physician position"
+
+  - matter_number: "2024-018"
+    title: "Anderson Copyright Dispute"
+    client_name: "Anderson Media Productions"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Copyright Infringement"
+    status: "Active"
+    opened_date: "2024-02-12"
+    closed_date: null
+    adverse_parties: [Digital Media Corp, Creative Director]
+    related_parties: [Copyright Office, Industry Experts]
+    assigned_attorney: "Thomas Anderson"
+    description: "Copyright infringement claim for digital content"
+
+  - matter_number: "2024-019"
+    title: "Vasquez Family Trust"
+    client_name: "Elena Vasquez"
+    client_type: "Individual"
+    practice_area: "Estate Planning"
+    matter_type: "Trust Administration"
+    status: "Active"
+    opened_date: "2024-01-22"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Family Members, Trust Beneficiaries, Bank Trustee]
+    assigned_attorney: "Robert Chen"
+    description: "Family trust administration and beneficiary distributions"
+
+  - matter_number: "2024-020"
+    title: "Thompson Securities Compliance"
+    client_name: "Thompson Investment Group"
+    client_type: "Corporation"
+    practice_area: "Securities Law"
+    matter_type: "Regulatory Compliance"
+    status: "Active"
+    opened_date: "2024-03-08"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [SEC, FINRA, Compliance Officers]
+    assigned_attorney: "Sarah Williams"
+    description: "Securities regulatory compliance and reporting requirements"
+
+  - matter_number: "2024-021"
+    title: "Williams Product Liability"
+    client_name: "Williams Consumer Products"
+    client_type: "Corporation"
+    practice_area: "Product Liability"
+    matter_type: "Defective Product"
+    status: "Active"
+    opened_date: "2024-02-18"
+    closed_date: null
+    adverse_parties: [Consumer Safety Group, Injured Consumers]
+    related_parties: [Product Testing Labs, Safety Engineers]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Product liability defense for allegedly defective consumer goods"
+
+  - matter_number: "2024-022"
+    title: "Brown Tax Controversy"
+    client_name: "Brown Enterprises Inc."
+    client_type: "Corporation"
+    practice_area: "Tax Law"
+    matter_type: "Tax Audit"
+    status: "Active"
+    opened_date: "2024-03-15"
+    closed_date: null
+    adverse_parties: [Internal Revenue Service]
+    related_parties: [Tax Accountants, Revenue Agent]
+    assigned_attorney: "David Kim"
+    description: "IRS tax audit defense and controversy resolution"
+
+  - matter_number: "2024-023"
+    title: "Davis Environmental Compliance"
+    client_name: "Davis Manufacturing Corp"
+    client_type: "Corporation"
+    practice_area: "Environmental Law"
+    matter_type: "Regulatory Compliance"
+    status: "Active"
+    opened_date: "2024-01-28"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [EPA, State Environmental Agency, Compliance Consultants]
+    assigned_attorney: "Patricia Brown"
+    description: "Environmental regulatory compliance and permit applications"
+
+  - matter_number: "2024-024"
+    title: "Johnson Antitrust Investigation"
+    client_name: "Johnson Global Industries"
+    client_type: "Corporation"
+    practice_area: "Antitrust Law"
+    matter_type: "Government Investigation"
+    status: "Active"
+    opened_date: "2024-02-22"
+    closed_date: null
+    adverse_parties: [Department of Justice, Federal Trade Commission]
+    related_parties: [Antitrust Division, Economic Experts]
+    assigned_attorney: "Michael Thompson"
+    description: "Federal antitrust investigation defense"
+
+  - matter_number: "2024-025"
+    title: "Wilson Construction Contract"
+    client_name: "Wilson Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Contract Dispute"
+    status: "Active"
+    opened_date: "2024-03-03"
+    closed_date: null
+    adverse_parties: [Metro Development Corp, Project Owner]
+    related_parties: [Architects, Engineers, Subcontractors]
+    assigned_attorney: "David Kim"
+    description: "Construction contract dispute and payment issues"
+
+  - matter_number: "2024-026"
+    title: "Adams Healthcare Compliance"
+    client_name: "Adams Medical Group"
+    client_type: "Corporation"
+    practice_area: "Healthcare Law"
+    matter_type: "HIPAA Compliance"
+    status: "Active"
+    opened_date: "2024-02-05"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [HHS, Compliance Officers, IT Security]
+    assigned_attorney: "Patricia Brown"
+    description: "HIPAA compliance audit and privacy policy implementation"
+
+  - matter_number: "2024-027"
+    title: "Lee International Trade"
+    client_name: "Lee Import Export Corp"
+    client_type: "Corporation"
+    practice_area: "International Trade"
+    matter_type: "Customs Dispute"
+    status: "Active"
+    opened_date: "2024-03-18"
+    closed_date: null
+    adverse_parties: [US Customs and Border Protection]
+    related_parties: [Customs Brokers, Trade Consultants]
+    assigned_attorney: "Elena Vasquez"
+    description: "Customs classification dispute and tariff issues"
+
+  - matter_number: "2024-028"
+    title: "Thompson Data Privacy"
+    client_name: "Thompson Tech Solutions"
+    client_type: "Corporation"
+    practice_area: "Privacy Law"
+    matter_type: "Data Breach Response"
+    status: "Active"
+    opened_date: "2024-02-14"
+    closed_date: null
+    adverse_parties: [Data Breach Victims, Privacy Advocates]
+    related_parties: [Cybersecurity Experts, Forensic Investigators]
+    assigned_attorney: "Thomas Anderson"
+    description: "Data breach response and privacy compliance"
+
+  - matter_number: "2024-029"
+    title: "Garcia Labor Relations"
+    client_name: "Garcia Manufacturing Inc."
+    client_type: "Corporation"
+    practice_area: "Labor Law"
+    matter_type: "Union Negotiations"
+    status: "Active"
+    opened_date: "2024-01-12"
+    closed_date: null
+    adverse_parties: [United Workers Union Local 123]
+    related_parties: [Union Representatives, Labor Relations Board]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Collective bargaining agreement negotiations"
+
+  - matter_number: "2024-030"
+    title: "Martinez Insurance Coverage"
+    client_name: "Martinez Restaurant Group"
+    client_type: "Corporation"
+    practice_area: "Insurance Law"
+    matter_type: "Coverage Dispute"
+    status: "Active"
+    opened_date: "2024-03-20"
+    closed_date: null
+    adverse_parties: [Metro Insurance Company]
+    related_parties: [Insurance Adjusters, Risk Managers]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Commercial insurance coverage dispute for property damage"
+
+  - matter_number: "2024-031"
+    title: "Chen Professional Licensing"
+    client_name: "Dr. Sarah Chen"
+    client_type: "Individual"
+    practice_area: "Professional Licensing"
+    matter_type: "License Defense"
+    status: "Active"
+    opened_date: "2024-02-08"
+    closed_date: null
+    adverse_parties: [State Medical Board]
+    related_parties: [Medical Review Committee, Expert Physicians]
+    assigned_attorney: "Patricia Brown"
+    description: "Medical license defense against disciplinary action"
+
+  - matter_number: "2024-032"
+    title: "Rodriguez Franchise Agreement"
+    client_name: "Rodriguez Franchise Corp"
+    client_type: "Corporation"
+    practice_area: "Franchise Law"
+    matter_type: "Franchise Development"
+    status: "Active"
+    opened_date: "2024-01-30"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Franchisees, Franchise Consultants]
+    assigned_attorney: "Sarah Williams"
+    description: "Franchise agreement development and compliance"
+
+  - matter_number: "2024-033"
+    title: "Kim Employment Termination"
+    client_name: "Dr. Sarah Kim"
+    client_type: "Individual"
+    practice_area: "Employment Law"
+    matter_type: "Wrongful Termination"
+    status: "Active"
+    opened_date: "2024-03-22"
+    closed_date: null
+    adverse_parties: [Regional Medical Center, HR Director]
+    related_parties: [Co-workers, Medical Staff, Employment Experts]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Wrongful termination claim with retaliation allegations"
+
+  - matter_number: "2024-034"
+    title: "Anderson Trade Secret Protection"
+    client_name: "Anderson Tech Innovations"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Trade Secret Misappropriation"
+    status: "Active"
+    opened_date: "2024-02-16"
+    closed_date: null
+    adverse_parties: [Former Employee, Competitor Company]
+    related_parties: [IT Security Experts, Forensic Analysts]
+    assigned_attorney: "Thomas Anderson"
+    description: "Trade secret misappropriation and competitive intelligence theft"
+
+  - matter_number: "2024-035"
+    title: "Vasquez Immigration Waiver"
+    client_name: "Elena Vasquez"
+    client_type: "Individual"
+    practice_area: "Immigration Law"
+    matter_type: "Waiver Application"
+    status: "Active"
+    opened_date: "2024-03-25"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [USCIS, Immigration Judge, Family Members]
+    assigned_attorney: "Elena Vasquez"
+    description: "I-601 waiver application for inadmissibility grounds"
+
+  - matter_number: "2024-036"
+    title: "Thompson Merger Transaction"
+    client_name: "Thompson Acquisition Corp"
+    client_type: "Corporation"
+    practice_area: "Corporate Law"
+    matter_type: "Merger and Acquisition"
+    status: "Active"
+    opened_date: "2024-01-15"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Target Company, Investment Bankers, Due Diligence Teams]
+    assigned_attorney: "Sarah Williams"
+    description: "Acquisition of technology startup company"
+
+  - matter_number: "2024-037"
+    title: "Williams Class Action Defense"
+    client_name: "Williams Consumer Products"
+    client_type: "Corporation"
+    practice_area: "Class Action Defense"
+    matter_type: "Consumer Class Action"
+    status: "Active"
+    opened_date: "2024-02-28"
+    closed_date: null
+    adverse_parties: [Class Action Plaintiffs, Consumer Advocacy Group]
+    related_parties: [Class Counsel, Court Appointed Mediator]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Consumer class action defense for product liability claims"
+
+  - matter_number: "2024-038"
+    title: "Brown Tax Planning"
+    client_name: "Brown Family Trust"
+    client_type: "Trust"
+    practice_area: "Tax Law"
+    matter_type: "Tax Planning"
+    status: "Active"
+    opened_date: "2024-01-20"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Tax Accountants, Financial Advisors, Family Members]
+    assigned_attorney: "David Kim"
+    description: "Comprehensive tax planning and wealth preservation strategies"
+
+  - matter_number: "2024-039"
+    title: "Davis OSHA Investigation"
+    client_name: "Davis Manufacturing Corp"
+    client_type: "Corporation"
+    practice_area: "Occupational Safety"
+    matter_type: "OSHA Citation"
+    status: "Active"
+    opened_date: "2024-03-28"
+    closed_date: null
+    adverse_parties: [Occupational Safety and Health Administration]
+    related_parties: [Safety Consultants, Industrial Hygienists]
+    assigned_attorney: "Patricia Brown"
+    description: "OSHA citation defense and workplace safety compliance"
+
+  - matter_number: "2024-040"
+    title: "Johnson Export Controls"
+    client_name: "Johnson Global Industries"
+    client_type: "Corporation"
+    practice_area: "Export Controls"
+    matter_type: "ITAR Compliance"
+    status: "Active"
+    opened_date: "2024-02-10"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Department of State, Export Control Officers]
+    assigned_attorney: "Elena Vasquez"
+    description: "International Traffic in Arms Regulations compliance"
+
+  - matter_number: "2024-041"
+    title: "Wilson Construction Defect"
+    client_name: "Wilson Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Construction Defect"
+    status: "Active"
+    opened_date: "2024-03-30"
+    closed_date: null
+    adverse_parties: [Property Owners, Homeowners Association]
+    related_parties: [Structural Engineers, Building Inspectors]
+    assigned_attorney: "David Kim"
+    description: "Construction defect litigation and warranty claims"
+
+  - matter_number: "2024-042"
+    title: "Adams Healthcare Fraud"
+    client_name: "Adams Medical Group"
+    client_type: "Corporation"
+    practice_area: "Healthcare Law"
+    matter_type: "Fraud Investigation"
+    status: "Active"
+    opened_date: "2024-02-20"
+    closed_date: null
+    adverse_parties: [Department of Justice, HHS OIG]
+    related_parties: [Federal Investigators, Healthcare Compliance Experts]
+    assigned_attorney: "Michael Thompson"
+    description: "Healthcare fraud investigation and compliance defense"
+
+  - matter_number: "2024-043"
+    title: "Lee International Arbitration"
+    client_name: "Lee Import Export Corp"
+    client_type: "Corporation"
+    practice_area: "International Arbitration"
+    matter_type: "Commercial Dispute"
+    status: "Active"
+    opened_date: "2024-01-25"
+    closed_date: null
+    adverse_parties: [International Trading Partner, Foreign Corporation]
+    related_parties: [Arbitration Panel, International Trade Experts]
+    assigned_attorney: "Elena Vasquez"
+    description: "International commercial arbitration for contract dispute"
+
+  - matter_number: "2024-044"
+    title: "Thompson Cybersecurity Incident"
+    client_name: "Thompson Tech Solutions"
+    client_type: "Corporation"
+    practice_area: "Cybersecurity Law"
+    matter_type: "Incident Response"
+    status: "Active"
+    opened_date: "2024-04-02"
+    closed_date: null
+    adverse_parties: [Cyber Attackers, Data Breach Victims]
+    related_parties: [Cybersecurity Experts, Forensic Investigators, Law Enforcement]
+    assigned_attorney: "Thomas Anderson"
+    description: "Cybersecurity incident response and regulatory compliance"
+
+  - matter_number: "2024-045"
+    title: "Garcia Wage and Hour"
+    client_name: "Carlos Garcia"
+    client_type: "Individual"
+    practice_area: "Employment Law"
+    matter_type: "Wage and Hour"
+    status: "Active"
+    opened_date: "2024-03-05"
+    closed_date: null
+    adverse_parties: [Industrial Solutions Inc., Payroll Department]
+    related_parties: [Co-workers, Department of Labor]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Wage and hour violations and overtime pay disputes"
+
+  - matter_number: "2024-046"
+    title: "Martinez Liquor License"
+    client_name: "Martinez Restaurant Group"
+    client_type: "Corporation"
+    practice_area: "Regulatory Law"
+    matter_type: "Licensing"
+    status: "Active"
+    opened_date: "2024-02-15"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [State Liquor Control Board, Local Authorities]
+    assigned_attorney: "Patricia Brown"
+    description: "Liquor license application and regulatory compliance"
+
+  - matter_number: "2024-047"
+    title: "Chen Medical Device Approval"
+    client_name: "Dr. Sarah Chen"
+    client_type: "Individual"
+    practice_area: "FDA Law"
+    matter_type: "Device Approval"
+    status: "Active"
+    opened_date: "2024-01-18"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [FDA, Medical Device Manufacturers, Clinical Trial Sites]
+    assigned_attorney: "Patricia Brown"
+    description: "FDA medical device approval and regulatory pathway"
+
+  - matter_number: "2024-048"
+    title: "Rodriguez Construction Bond"
+    client_name: "Rodriguez Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Surety Bond"
+    status: "Active"
+    opened_date: "2024-03-12"
+    closed_date: null
+    adverse_parties: [Surety Company, Project Owner]
+    related_parties: [Bonding Agents, Project Managers]
+    assigned_attorney: "David Kim"
+    description: "Construction surety bond claim and performance issues"
+
+  - matter_number: "2024-049"
+    title: "Kim Non-Compete Agreement"
+    client_name: "Dr. Sarah Kim"
+    client_type: "Individual"
+    practice_area: "Employment Law"
+    matter_type: "Non-Compete"
+    status: "Active"
+    opened_date: "2024-04-05"
+    closed_date: null
+    adverse_parties: [Regional Medical Center, Former Employer]
+    related_parties: [New Employer, Medical Practice Group]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Non-compete agreement enforcement and restrictive covenant"
+
+  - matter_number: "2024-050"
+    title: "Anderson Patent Litigation"
+    client_name: "Anderson Tech Innovations"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Patent Infringement"
+    status: "Active"
+    opened_date: "2024-02-25"
+    closed_date: null
+    adverse_parties: [Competitor Corp, Patent Infringers]
+    related_parties: [Patent Examiners, Technical Experts, Court]
+    assigned_attorney: "Thomas Anderson"
+    description: "Patent infringement litigation and technology protection"
+
+  - matter_number: "2024-051"
+    title: "Vasquez Asylum Application"
+    client_name: "Elena Vasquez"
+    client_type: "Individual"
+    practice_area: "Immigration Law"
+    matter_type: "Asylum"
+    status: "Active"
+    opened_date: "2024-03-15"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [USCIS, Immigration Judge, Country Conditions Experts]
+    assigned_attorney: "Elena Vasquez"
+    description: "Asylum application based on persecution and country conditions"
+
+  - matter_number: "2024-052"
+    title: "Thompson IPO Preparation"
+    client_name: "Thompson Acquisition Corp"
+    client_type: "Corporation"
+    practice_area: "Securities Law"
+    matter_type: "Initial Public Offering"
+    status: "Active"
+    opened_date: "2024-01-30"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Investment Bankers, SEC, Underwriters]
+    assigned_attorney: "Sarah Williams"
+    description: "Initial public offering preparation and SEC compliance"
+
+  - matter_number: "2024-053"
+    title: "Williams Product Recall"
+    client_name: "Williams Consumer Products"
+    client_type: "Corporation"
+    practice_area: "Product Liability"
+    matter_type: "Product Recall"
+    status: "Active"
+    opened_date: "2024-04-08"
+    closed_date: null
+    adverse_parties: [Consumer Product Safety Commission, Consumers]
+    related_parties: [Product Testing Labs, Safety Engineers, Retailers]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Product recall coordination and regulatory compliance"
+
+  - matter_number: "2024-054"
+    title: "Brown Estate Administration"
+    client_name: "Brown Family Estate"
+    client_type: "Estate"
+    practice_area: "Estate Planning"
+    matter_type: "Estate Administration"
+    status: "Active"
+    opened_date: "2024-02-12"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Beneficiaries, Executor, Probate Court]
+    assigned_attorney: "Robert Chen"
+    description: "Estate administration and probate proceedings"
+
+  - matter_number: "2024-055"
+    title: "Davis Environmental Cleanup"
+    client_name: "Davis Manufacturing Corp"
+    client_type: "Corporation"
+    practice_area: "Environmental Law"
+    matter_type: "Remediation"
+    status: "Active"
+    opened_date: "2024-03-18"
+    closed_date: null
+    adverse_parties: [EPA, State Environmental Agency]
+    related_parties: [Environmental Consultants, Remediation Contractors]
+    assigned_attorney: "Patricia Brown"
+    description: "Environmental site remediation and cleanup compliance"
+
+  - matter_number: "2024-056"
+    title: "Johnson FCPA Investigation"
+    client_name: "Johnson Global Industries"
+    client_type: "Corporation"
+    practice_area: "FCPA Compliance"
+    matter_type: "Government Investigation"
+    status: "Active"
+    opened_date: "2024-02-28"
+    closed_date: null
+    adverse_parties: [Department of Justice, SEC]
+    related_parties: [Internal Investigators, Compliance Officers]
+    assigned_attorney: "Michael Thompson"
+    description: "Foreign Corrupt Practices Act investigation and compliance"
+
+  - matter_number: "2024-057"
+    title: "Wilson Construction Lien"
+    client_name: "Wilson Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Mechanics Lien"
+    status: "Active"
+    opened_date: "2024-04-10"
+    closed_date: null
+    adverse_parties: [Property Owner, General Contractor]
+    related_parties: [Subcontractors, Suppliers, Lien Holders]
+    assigned_attorney: "David Kim"
+    description: "Mechanics lien enforcement and payment disputes"
+
+  - matter_number: "2024-058"
+    title: "Adams Healthcare Privacy"
+    client_name: "Adams Medical Group"
+    client_type: "Corporation"
+    practice_area: "Healthcare Law"
+    matter_type: "Privacy Breach"
+    status: "Active"
+    opened_date: "2024-03-22"
+    closed_date: null
+    adverse_parties: [HHS, Privacy Advocates, Patients]
+    related_parties: [IT Security, Privacy Officers, Forensic Experts]
+    assigned_attorney: "Patricia Brown"
+    description: "Healthcare privacy breach response and HIPAA compliance"
+
+  - matter_number: "2024-059"
+    title: "Lee International Contract"
+    client_name: "Lee Import Export Corp"
+    client_type: "Corporation"
+    practice_area: "International Law"
+    matter_type: "Contract Negotiation"
+    status: "Active"
+    opened_date: "2024-01-28"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [International Partners, Trade Consultants, Translators]
+    assigned_attorney: "Elena Vasquez"
+    description: "International commercial contract negotiation and drafting"
+
+  - matter_number: "2024-060"
+    title: "Thompson Data Protection"
+    client_name: "Thompson Tech Solutions"
+    client_type: "Corporation"
+    practice_area: "Data Protection"
+    matter_type: "GDPR Compliance"
+    status: "Active"
+    opened_date: "2024-02-18"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [EU Data Protection Authorities, Privacy Consultants]
+    assigned_attorney: "Thomas Anderson"
+    description: "General Data Protection Regulation compliance and implementation"
+
+  - matter_number: "2024-061"
+    title: "Garcia Union Organizing"
+    client_name: "Garcia Manufacturing Inc."
+    client_type: "Corporation"
+    practice_area: "Labor Law"
+    matter_type: "Union Organizing"
+    status: "Active"
+    opened_date: "2024-04-12"
+    closed_date: null
+    adverse_parties: [United Workers Union Local 123]
+    related_parties: [Union Organizers, NLRB, Employee Relations]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Union organizing campaign and labor relations management"
+
+  - matter_number: "2024-062"
+    title: "Martinez Food Safety"
+    client_name: "Martinez Restaurant Group"
+    client_type: "Corporation"
+    practice_area: "Food Safety Law"
+    matter_type: "Regulatory Compliance"
+    status: "Active"
+    opened_date: "2024-03-25"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [FDA, State Health Department, Food Safety Inspectors]
+    assigned_attorney: "Patricia Brown"
+    description: "Food safety regulatory compliance and inspection response"
+
+  - matter_number: "2024-063"
+    title: "Chen Medical Research"
+    client_name: "Dr. Sarah Chen"
+    client_type: "Individual"
+    practice_area: "Research Law"
+    matter_type: "Clinical Trial"
+    status: "Active"
+    opened_date: "2024-02-05"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [IRB, Research Participants, Funding Agencies]
+    assigned_attorney: "Patricia Brown"
+    description: "Clinical trial protocol development and regulatory compliance"
+
+  - matter_number: "2024-064"
+    title: "Rodriguez Construction Safety"
+    client_name: "Rodriguez Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Safety Violation"
+    status: "Active"
+    opened_date: "2024-04-15"
+    closed_date: null
+    adverse_parties: [OSHA, Safety Inspectors]
+    related_parties: [Safety Consultants, Workers, Project Managers]
+    assigned_attorney: "David Kim"
+    description: "Construction safety violation defense and compliance"
+
+  - matter_number: "2024-065"
+    title: "Kim Medical Staff Privileges"
+    client_name: "Dr. Sarah Kim"
+    client_type: "Individual"
+    practice_area: "Healthcare Law"
+    matter_type: "Medical Staff"
+    status: "Active"
+    opened_date: "2024-03-08"
+    closed_date: null
+    adverse_parties: [Regional Medical Center, Medical Staff Committee]
+    related_parties: [Peer Review Committee, Medical Staff Office]
+    assigned_attorney: "Patricia Brown"
+    description: "Medical staff privileges dispute and peer review"
+
+  - matter_number: "2024-066"
+    title: "Anderson Technology Licensing"
+    client_name: "Anderson Tech Innovations"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Technology Licensing"
+    status: "Active"
+    opened_date: "2024-01-22"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Licensees, Technology Partners, Patent Attorneys]
+    assigned_attorney: "Thomas Anderson"
+    description: "Technology licensing agreements and IP portfolio management"
+
+  - matter_number: "2024-067"
+    title: "Vasquez Family Reunification"
+    client_name: "Elena Vasquez"
+    client_type: "Individual"
+    practice_area: "Immigration Law"
+    matter_type: "Family Petition"
+    status: "Active"
+    opened_date: "2024-04-18"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [USCIS, Family Members, Immigration Officers]
+    assigned_attorney: "Elena Vasquez"
+    description: "Family reunification petition and immigration benefits"
+
+  - matter_number: "2024-068"
+    title: "Thompson Corporate Governance"
+    client_name: "Thompson Acquisition Corp"
+    client_type: "Corporation"
+    practice_area: "Corporate Law"
+    matter_type: "Governance Compliance"
+    status: "Active"
+    opened_date: "2024-02-22"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Board of Directors, Corporate Secretaries, Auditors]
+    assigned_attorney: "Sarah Williams"
+    description: "Corporate governance compliance and board procedures"
+
+  - matter_number: "2024-069"
+    title: "Williams Consumer Protection"
+    client_name: "Williams Consumer Products"
+    client_type: "Corporation"
+    practice_area: "Consumer Protection"
+    matter_type: "Regulatory Investigation"
+    status: "Active"
+    opened_date: "2024-03-30"
+    closed_date: null
+    adverse_parties: [Federal Trade Commission, State AG]
+    related_parties: [Consumer Protection Agencies, Marketing Teams]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Consumer protection investigation and advertising compliance"
+
+  - matter_number: "2024-070"
+    title: "Brown Tax Controversy Appeal"
+    client_name: "Brown Enterprises Inc."
+    client_type: "Corporation"
+    practice_area: "Tax Law"
+    matter_type: "Tax Court Appeal"
+    status: "Active"
+    opened_date: "2024-04-20"
+    closed_date: null
+    adverse_parties: [Internal Revenue Service, Tax Court]
+    related_parties: [Tax Accountants, Revenue Agents, Tax Court Judges]
+    assigned_attorney: "David Kim"
+    description: "Tax Court appeal and controversy resolution"
+
+  - matter_number: "2024-071"
+    title: "Davis Workplace Harassment"
+    client_name: "Davis Manufacturing Corp"
+    client_type: "Corporation"
+    practice_area: "Employment Law"
+    matter_type: "Harassment Investigation"
+    status: "Active"
+    opened_date: "2024-03-12"
+    closed_date: null
+    adverse_parties: [EEOC, Harassment Complainants]
+    related_parties: [HR Department, Workplace Investigators]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Workplace harassment investigation and EEOC compliance"
+
+  - matter_number: "2024-072"
+    title: "Johnson International Sanctions"
+    client_name: "Johnson Global Industries"
+    client_type: "Corporation"
+    practice_area: "International Trade"
+    matter_type: "Sanctions Compliance"
+    status: "Active"
+    opened_date: "2024-02-15"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [OFAC, Compliance Officers, International Partners]
+    assigned_attorney: "Elena Vasquez"
+    description: "Office of Foreign Assets Control sanctions compliance"
+
+  - matter_number: "2024-073"
+    title: "Wilson Construction Delay"
+    client_name: "Wilson Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Delay Claims"
+    status: "Active"
+    opened_date: "2024-04-22"
+    closed_date: null
+    adverse_parties: [Project Owner, General Contractor]
+    related_parties: [Schedulers, Project Managers, Delay Experts]
+    assigned_attorney: "David Kim"
+    description: "Construction delay claims and schedule analysis"
+
+  - matter_number: "2024-074"
+    title: "Adams Healthcare Billing"
+    client_name: "Adams Medical Group"
+    client_type: "Corporation"
+    practice_area: "Healthcare Law"
+    matter_type: "Billing Compliance"
+    status: "Active"
+    opened_date: "2024-03-18"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [CMS, Medicare/Medicaid, Billing Consultants]
+    assigned_attorney: "Patricia Brown"
+    description: "Healthcare billing compliance and Medicare/Medicaid issues"
+
+  - matter_number: "2024-075"
+    title: "Lee International Investment"
+    client_name: "Lee Import Export Corp"
+    client_type: "Corporation"
+    practice_area: "International Law"
+    matter_type: "Foreign Investment"
+    status: "Active"
+    opened_date: "2024-01-25"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Foreign Governments, Investment Partners, Trade Counselors]
+    assigned_attorney: "Elena Vasquez"
+    description: "Foreign direct investment and international business expansion"
+
+  - matter_number: "2024-076"
+    title: "Thompson AI Ethics Compliance"
+    client_name: "Thompson Tech Solutions"
+    client_type: "Corporation"
+    practice_area: "Technology Law"
+    matter_type: "AI Governance"
+    status: "Active"
+    opened_date: "2024-04-25"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [AI Ethics Board, Technology Consultants, Regulators]
+    assigned_attorney: "Thomas Anderson"
+    description: "Artificial intelligence ethics compliance and governance"
+
+  - matter_number: "2024-077"
+    title: "Garcia Collective Bargaining"
+    client_name: "Garcia Manufacturing Inc."
+    client_type: "Corporation"
+    practice_area: "Labor Law"
+    matter_type: "CBA Negotiations"
+    status: "Active"
+    opened_date: "2024-02-28"
+    closed_date: null
+    adverse_parties: [United Workers Union Local 123]
+    related_parties: [Union Negotiators, Labor Relations Board, Mediators]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Collective bargaining agreement negotiations and labor relations"
+
+  - matter_number: "2024-078"
+    title: "Martinez Employment Policy"
+    client_name: "Martinez Restaurant Group"
+    client_type: "Corporation"
+    practice_area: "Employment Law"
+    matter_type: "Policy Development"
+    status: "Active"
+    opened_date: "2024-03-28"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [HR Department, Employment Consultants, Legal Team]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Employment policy development and handbook creation"
+
+  - matter_number: "2024-079"
+    title: "Chen Medical Device Liability"
+    client_name: "Dr. Sarah Chen"
+    client_type: "Individual"
+    practice_area: "Medical Malpractice"
+    matter_type: "Device Liability"
+    status: "Active"
+    opened_date: "2024-04-28"
+    closed_date: null
+    adverse_parties: [Medical Device Manufacturer, Hospital]
+    related_parties: [Product Liability Experts, Medical Experts]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Medical device liability and product defect claims"
+
+  - matter_number: "2024-080"
+    title: "Rodriguez Construction Insurance"
+    client_name: "Rodriguez Construction LLC"
+    client_type: "LLC"
+    practice_area: "Insurance Law"
+    matter_type: "Coverage Dispute"
+    status: "Active"
+    opened_date: "2024-03-05"
+    closed_date: null
+    adverse_parties: [Construction Insurance Company]
+    related_parties: [Insurance Adjusters, Risk Managers, Contractors]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Construction insurance coverage dispute and claim resolution"
+
+  - matter_number: "2024-081"
+    title: "Kim Medical Ethics"
+    client_name: "Dr. Sarah Kim"
+    client_type: "Individual"
+    practice_area: "Medical Ethics"
+    matter_type: "Ethics Investigation"
+    status: "Active"
+    opened_date: "2024-04-30"
+    closed_date: null
+    adverse_parties: [Medical Ethics Board, Hospital Administration]
+    related_parties: [Ethics Committee, Peer Review Board, Medical Staff]
+    assigned_attorney: "Patricia Brown"
+    description: "Medical ethics investigation and professional conduct review"
+
+  - matter_number: "2024-082"
+    title: "Anderson Patent Portfolio"
+    client_name: "Anderson Tech Innovations"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Portfolio Management"
+    status: "Active"
+    opened_date: "2024-02-12"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Patent Attorneys, Technology Teams, IP Consultants]
+    assigned_attorney: "Thomas Anderson"
+    description: "Patent portfolio management and intellectual property strategy"
+
+  - matter_number: "2024-083"
+    title: "Vasquez Immigration Detention"
+    client_name: "Elena Vasquez"
+    client_type: "Individual"
+    practice_area: "Immigration Law"
+    matter_type: "Detention Defense"
+    status: "Active"
+    opened_date: "2024-05-02"
+    closed_date: null
+    adverse_parties: [ICE, Department of Homeland Security]
+    related_parties: [Immigration Judge, Bond Hearing Officer, Family Members]
+    assigned_attorney: "Elena Vasquez"
+    description: "Immigration detention defense and bond hearing representation"
+
+  - matter_number: "2024-084"
+    title: "Thompson Securities Fraud"
+    client_name: "Thompson Acquisition Corp"
+    client_type: "Corporation"
+    practice_area: "Securities Law"
+    matter_type: "Fraud Investigation"
+    status: "Active"
+    opened_date: "2024-03-15"
+    closed_date: null
+    adverse_parties: [SEC, Department of Justice]
+    related_parties: [Securities Attorneys, Forensic Accountants, Regulators]
+    assigned_attorney: "Michael Thompson"
+    description: "Securities fraud investigation and regulatory compliance"
+
+  - matter_number: "2024-085"
+    title: "Williams Product Warranty"
+    client_name: "Williams Consumer Products"
+    client_type: "Corporation"
+    practice_area: "Product Liability"
+    matter_type: "Warranty Claims"
+    status: "Active"
+    opened_date: "2024-04-05"
+    closed_date: null
+    adverse_parties: [Consumers, Warranty Claimants]
+    related_parties: [Customer Service, Product Engineers, Warranty Administrators]
+    assigned_attorney: "Jennifer Martinez"
+    description: "Product warranty claims and consumer protection compliance"
+
+  - matter_number: "2024-086"
+    title: "Brown Estate Tax"
+    client_name: "Brown Family Estate"
+    client_type: "Estate"
+    practice_area: "Estate Planning"
+    matter_type: "Estate Tax"
+    status: "Active"
+    opened_date: "2024-02-20"
+    closed_date: null
+    adverse_parties: [Internal Revenue Service]
+    related_parties: [Estate Tax Attorneys, Appraisers, Tax Accountants]
+    assigned_attorney: "David Kim"
+    description: "Estate tax planning and IRS audit defense"
+
+  - matter_number: "2024-087"
+    title: "Davis Environmental Permits"
+    client_name: "Davis Manufacturing Corp"
+    client_type: "Corporation"
+    practice_area: "Environmental Law"
+    matter_type: "Permit Applications"
+    status: "Active"
+    opened_date: "2024-03-22"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [EPA, State Environmental Agency, Environmental Consultants]
+    assigned_attorney: "Patricia Brown"
+    description: "Environmental permit applications and regulatory compliance"
+
+  - matter_number: "2024-088"
+    title: "Johnson International Contract"
+    client_name: "Johnson Global Industries"
+    client_type: "Corporation"
+    practice_area: "International Law"
+    matter_type: "Contract Dispute"
+    status: "Active"
+    opened_date: "2024-04-08"
+    closed_date: null
+    adverse_parties: [International Partner, Foreign Corporation]
+    related_parties: [International Arbitrators, Trade Consultants, Translators]
+    assigned_attorney: "Elena Vasquez"
+    description: "International commercial contract dispute and arbitration"
+
+  - matter_number: "2024-089"
+    title: "Wilson Construction Payment"
+    client_name: "Wilson Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Payment Dispute"
+    status: "Active"
+    opened_date: "2024-05-05"
+    closed_date: null
+    adverse_parties: [Project Owner, Payment Disputants]
+    related_parties: [Project Managers, Accountants, Payment Administrators]
+    assigned_attorney: "David Kim"
+    description: "Construction payment disputes and lien enforcement"
+
+  - matter_number: "2024-090"
+    title: "Adams Healthcare Quality"
+    client_name: "Adams Medical Group"
+    client_type: "Corporation"
+    practice_area: "Healthcare Law"
+    matter_type: "Quality Assurance"
+    status: "Active"
+    opened_date: "2024-03-25"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Quality Assurance Teams, Medical Staff, Compliance Officers]
+    assigned_attorney: "Patricia Brown"
+    description: "Healthcare quality assurance and patient safety compliance"
+
+  - matter_number: "2024-091"
+    title: "Lee International Trade Dispute"
+    client_name: "Lee Import Export Corp"
+    client_type: "Corporation"
+    practice_area: "International Trade"
+    matter_type: "Trade Dispute"
+    status: "Active"
+    opened_date: "2024-04-12"
+    closed_date: null
+    adverse_parties: [Foreign Government, Trade Partners]
+    related_parties: [WTO, Trade Arbitrators, International Trade Experts]
+    assigned_attorney: "Elena Vasquez"
+    description: "International trade dispute and WTO arbitration"
+
+  - matter_number: "2024-092"
+    title: "Thompson Data Analytics"
+    client_name: "Thompson Tech Solutions"
+    client_type: "Corporation"
+    practice_area: "Privacy Law"
+    matter_type: "Data Analytics"
+    status: "Active"
+    opened_date: "2024-03-08"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Privacy Officers, Data Scientists, Compliance Teams]
+    assigned_attorney: "Thomas Anderson"
+    description: "Data analytics privacy compliance and algorithmic transparency"
+
+  - matter_number: "2024-093"
+    title: "Garcia Workplace Safety"
+    client_name: "Garcia Manufacturing Inc."
+    client_type: "Corporation"
+    practice_area: "Occupational Safety"
+    matter_type: "Safety Program"
+    status: "Active"
+    opened_date: "2024-04-15"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Safety Consultants, OSHA, Industrial Hygienists]
+    assigned_attorney: "Patricia Brown"
+    description: "Workplace safety program development and OSHA compliance"
+
+  - matter_number: "2024-094"
+    title: "Martinez Employment Training"
+    client_name: "Martinez Restaurant Group"
+    client_type: "Corporation"
+    practice_area: "Employment Law"
+    matter_type: "Training Compliance"
+    status: "Active"
+    opened_date: "2024-05-08"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Training Consultants, HR Department, Compliance Teams]
+    assigned_attorney: "Maria Rodriguez"
+    description: "Employment training compliance and harassment prevention"
+
+  - matter_number: "2024-095"
+    title: "Chen Medical Research Ethics"
+    client_name: "Dr. Sarah Chen"
+    client_type: "Individual"
+    practice_area: "Research Law"
+    matter_type: "Research Ethics"
+    status: "Active"
+    opened_date: "2024-03-30"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [IRB, Research Ethics Board, Funding Agencies]
+    assigned_attorney: "Patricia Brown"
+    description: "Medical research ethics compliance and IRB approval"
+
+  - matter_number: "2024-096"
+    title: "Rodriguez Construction Permits"
+    client_name: "Rodriguez Construction LLC"
+    client_type: "LLC"
+    practice_area: "Construction Law"
+    matter_type: "Permit Compliance"
+    status: "Active"
+    opened_date: "2024-04-18"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Building Department, Permit Officials, Architects]
+    assigned_attorney: "David Kim"
+    description: "Construction permit compliance and building code adherence"
+
+  - matter_number: "2024-097"
+    title: "Kim Medical Practice Management"
+    client_name: "Dr. Sarah Kim"
+    client_type: "Individual"
+    practice_area: "Healthcare Law"
+    matter_type: "Practice Management"
+    status: "Active"
+    opened_date: "2024-05-10"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Practice Managers, Healthcare Consultants, Billing Staff]
+    assigned_attorney: "Patricia Brown"
+    description: "Medical practice management and healthcare business compliance"
+
+  - matter_number: "2024-098"
+    title: "Anderson Technology Transfer"
+    client_name: "Anderson Tech Innovations"
+    client_type: "Corporation"
+    practice_area: "Intellectual Property"
+    matter_type: "Technology Transfer"
+    status: "Active"
+    opened_date: "2024-04-22"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Technology Partners, Licensing Teams, IP Attorneys]
+    assigned_attorney: "Thomas Anderson"
+    description: "Technology transfer agreements and intellectual property licensing"
+
+  - matter_number: "2024-099"
+    title: "Vasquez Immigration Appeals"
+    client_name: "Elena Vasquez"
+    client_type: "Individual"
+    practice_area: "Immigration Law"
+    matter_type: "Appeals"
+    status: "Active"
+    opened_date: "2024-05-12"
+    closed_date: null
+    adverse_parties: [USCIS, Immigration Judge]
+    related_parties: [BIA, Immigration Attorneys, Court Interpreters]
+    assigned_attorney: "Elena Vasquez"
+    description: "Immigration appeals and Board of Immigration Appeals representation"
+
+  - matter_number: "2024-100"
+    title: "Thompson Corporate Restructuring"
+    client_name: "Thompson Acquisition Corp"
+    client_type: "Corporation"
+    practice_area: "Corporate Law"
+    matter_type: "Restructuring"
+    status: "Active"
+    opened_date: "2024-04-28"
+    closed_date: null
+    adverse_parties: null
+    related_parties: [Investment Bankers, Restructuring Consultants, Creditors]
+    assigned_attorney: "Sarah Williams"
+    description: "Corporate restructuring and financial reorganization"
