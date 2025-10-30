@@ -1,4 +1,8 @@
 class ConflictCollector
+  include FeatureFlaggable
+
+  feature_flaggable(flag_name: :CONFLICT_COLLECTOR_ENABLED)
+
   attr_reader :prospective_matter, :detectors
 
   def self.search(prospective_matter)
@@ -18,6 +22,9 @@ class ConflictCollector
       end
     end
   end
+
+  # Automatically intercepts when flag is disabled
+  mock_when_disabled :search
 
   private
 
