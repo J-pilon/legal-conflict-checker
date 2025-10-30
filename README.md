@@ -51,18 +51,20 @@ Submit a sample intake:
 curl -X POST http://localhost:3000/new_intake/create \
   -H "Content-Type: application/json" \
   -d '{
-    "matter_number":"2024-1076",
-    "title":"Martinez Restaurant Group Employment Dispute",
-    "client_name":"Commercial Bank",
-    "client_type":"Corporation",
-    "practice_area":"Employment Law",
-    "matter_type":"Discrimination",
-    "status":"Active",
-    "opened_date":"2024-05-15",
-    "adverse_parties":["Former Employee","EEOC"],
-    "related_parties":["Jennifer Martinez (Legal Counsel)","HR Department Staff"],
-    "assigned_attorney":"Sarah Williams",
-    "description":"Employment contract negotiation for senior physician position"
+    "matter_number": "2024-1076",
+    "title": "Martinez Restaurant Group Employment Dispute",
+    "client_name": "Commercial Bank",
+    "client_type": "Corporation",
+    "practice_area": "Employment Law",
+    "matter_type": "Discrimination",
+    "status": "Active",
+    "opened_date": "2024-05-15",
+    "closed_date": null,
+    "adverse_parties": ["Former Employee", "EEOC"],
+    "related_parties": ["Jennifer Martinez (Legal Counsel)", "HR Department Staff"],
+    "assigned_attorney": "Sarah Williams",
+    "description": "Employment contract negotiation for senior physician position",
+    "conflict_check": null
   }'
 ```
 
