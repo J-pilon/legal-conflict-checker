@@ -80,10 +80,11 @@ Open the dashboard: `http://localhost:3000/dashboard`
 
 ## Links (proof & context)
 
-* **Risk Brief (1-pager):** *[Clio Risk Brief](https://docs.google.com/document/d/14FJi-sjk3aj_fNPVaOa0v5mm6L8011yPgGm2pxUfFQ8/edit?usp=sharing)*
+* **Risk Brief:** *[Clio Risk Brief](https://docs.google.com/document/d/14FJi-sjk3aj_fNPVaOa0v5mm6L8011yPgGm2pxUfFQ8/edit?usp=sharing)*
 * **PR #5:** conflict detector logic — [https://github.com/J-pilon/legal-conflict-checker/pull/5](https://github.com/J-pilon/legal-conflict-checker/pull/5)
 * **PR #6:** UI dashboard + detected conflicts modal — [https://github.com/J-pilon/legal-conflict-checker/pull/6](https://github.com/J-pilon/legal-conflict-checker/pull/6)
 * **PR #7:** feature flag logic — [https://github.com/J-pilon/legal-conflict-checker/pull/7](https://github.com/J-pilon/legal-conflict-checker/pull/7)
+* **PR #8:** auditable conflict check log — [https://github.com/J-pilon/legal-conflict-checker/pull/8](https://github.com/J-pilon/legal-conflict-checker/pull/8)
 
 ## What’s in here (tech map)
 
