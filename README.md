@@ -80,6 +80,7 @@ Open the dashboard: `http://localhost:3000/dashboard`
 
 ## Links (proof & context)
 
+* **2 min walkthrough** *[Walkthrough video](https://www.loom.com/share/6f00569193b6464eb2c2c4cd4233c2fe)*
 * **Risk Brief:** *[Clio Risk Brief](https://docs.google.com/document/d/14FJi-sjk3aj_fNPVaOa0v5mm6L8011yPgGm2pxUfFQ8/edit?usp=sharing)*
 * **PR #5:** conflict detector logic — [https://github.com/J-pilon/legal-conflict-checker/pull/5](https://github.com/J-pilon/legal-conflict-checker/pull/5)
 * **PR #6:** UI dashboard + detected conflicts modal — [https://github.com/J-pilon/legal-conflict-checker/pull/6](https://github.com/J-pilon/legal-conflict-checker/pull/6)
