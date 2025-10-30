@@ -48,8 +48,10 @@
                   onclick="openConflictModal(this)">
                   <%= matter.conflicts_count %> Conflict<%= 's' if matter.conflicts_count != 1 %>
                 </button>
+              <% elsif matter.conflict_check.present? %>
+                <span class="no-conflicts"><%= matter.conflict_check["action"] %> on <strong><%= matter.conflict_check["completed_date"] %></strong></strong></span>
               <% else %>
-                <span class="no-conflicts">—</span>
+                <span class="no-conflicts">-</span>
               <% end %>
             </td>
           </tr>
@@ -70,6 +72,10 @@
     <div class="modal-body" id="modalBody">
       <!-- Conflicts will be dynamically inserted here -->
     </div>
+    <div class="modal-footer" style="display:flex; gap:8px; justify-content:flex-end; padding:10px 28px;">
+      <button id="clearConflictBtn" class="btn btn-success" onclick="handleClearConflict()">Clear</button>
+      <button id="escalateConflictBtn" class="btn btn-danger" onclick="handleEscalateConflict()">Escalate</button>
+    </div>
   </div>
 </div>
 
@@ -81,6 +87,9 @@
     
     // Set modal title
     document.getElementById('modalMatterTitle').textContent = `${matterNumber}: ${matterTitle}`;
+    // Store matter number on modal dataset
+    const modal = document.getElementById('conflictModal');
+    modal.setAttribute('data-matter-number', matterNumber);
     
     // Build conflict sections grouped by type
     const modalBody = document.getElementById('modalBody');
@@ -150,4 +159,32 @@
       closeConflictModal();
     }
   });
+
+  async function updateConflictCheck(matterNumber, action) {
+    try {
+      const response = await fetch('/audit/update', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ matter_number: matterNumber, action })
+      });
+      if (!response.ok) throw new Error('Request failed');
+      // Refresh to reflect updated YAML-backed data
+      window.location.reload();
+    } catch (e) {
+      console.log(e)
+      alert('Failed to update conflict check.');
+    }
+  }
+
+  function handleClearConflict() {
+    const modal = document.getElementById('conflictModal');
+    const matterNumber = modal.getAttribute('data-matter-number');
+    updateConflictCheck(matterNumber, 'Cleared');
+  }
+
+  function handleEscalateConflict() {
+    const modal = document.getElementById('conflictModal');
+    const matterNumber = modal.getAttribute('data-matter-number');
+    updateConflictCheck(matterNumber, 'Escalated');
+  }
 </script>

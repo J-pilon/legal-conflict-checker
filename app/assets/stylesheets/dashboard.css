@@ -166,6 +166,47 @@
   box-shadow: var(--shadow-sm);
 }
 
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: var(--shadow-sm);
+  outline: none;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, var(--success-color) 0%, #16c784 100%);
+  color: #fff;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+  background: linear-gradient(135deg, #16c784 0%, #059669 100%);
+  color: #fff;
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, var(--danger-color) 0%, #be123c 100%);
+  color: #fff;
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background: linear-gradient(135deg, #be123c 0%, #7f1d1d 100%);
+  color: #fff;
+}
+
 /* Modal Styles - Modern Design */
 .modal {
   display: none;
