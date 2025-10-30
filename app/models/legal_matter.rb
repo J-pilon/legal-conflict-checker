@@ -1,8 +1,8 @@
 class LegalMatter
   attr_reader :matter_number, :title, :client_name, :client_type, :practice_area,
               :matter_type, :status, :opened_date, :closed_date, :adverse_parties,
-              :related_parties, :description, :conflict_check_completed_date
-  attr_accessor :conflicts
+              :related_parties, :description
+  attr_accessor :conflicts, :conflict_check
 
   def initialize(attrs)
     @matter_number = attrs["matter_number"]
@@ -18,7 +18,7 @@ class LegalMatter
     @related_parties = attrs["related_parties"]
     @assigned_attorney = attrs["assigned_attorney"]
     @description = attrs["description"]
-    @conflict_check_completed_date = attrs["conflict_check_completed_date"]
+    @conflict_check = attrs["conflict_check"]
     @conflicts = nil
   end
 
@@ -27,7 +27,7 @@ class LegalMatter
   end
 
   def has_completed_conflict_check?
-    conflict_check_completed_date.present?
+    conflict_check && conflict_check.dig("completed_date").present?
   end
 
   def conflicts_by_type
