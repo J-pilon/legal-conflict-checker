@@ -95,7 +95,7 @@ Open the dashboard: `http://localhost:3000/dashboard`
   * `ConcurrentConflictDetector` — party/alias clashes
   * `LawyerClientConflictDetector` — attorney interest vs former client
   * `SuccessiveConflictDetector` — matter/title/description proximity
-* **Controllers/Views:** `NewIntakeController`, `DashboardController`
+* **Controllers/Views:** `NewIntakeController`, `DashboardController`, `AuditController`
 
 ## Roadmap (safe next steps)
 
